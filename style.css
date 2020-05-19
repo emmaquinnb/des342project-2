@@ -27,12 +27,42 @@ p {
   background-color: #4393D9;
 }
 
-.grid1, .grid2, .grid3, .grid4 section {
+.grid1 section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
 
-.grid1, .grid2, .grid3, .grid4 div {
+.grid2 section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid3 section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid4 section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid1 div {
+  padding: 20px;
+}
+
+.grid2 div {
+  padding: 20px;
+}
+
+.grid3 div {
+  padding: 20px;
+}
+
+.grid4 div {
   padding: 20px;
 }
