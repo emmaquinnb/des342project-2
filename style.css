@@ -1,7 +1,11 @@
 body {
   font-family: 'Manjari', sans-serif;
   color: white;
-  margin: 150px;
+  margin: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
+  line-height: 1.6;
+  font-size: 18px;
 }
 h1 {
   font-family: 'Manjari', sans-serif;
@@ -9,6 +13,16 @@ h1 {
 }
 p {
   font-family: 'Manjari', sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  border: solid 1px;
+  color: white;
+  padding: 12px 44px;
+  text-align: center;
+  text-decoration: none;
+  display: flow-root;
 }
 
 .grid1 {
@@ -66,3 +80,7 @@ p {
 .grid4 div {
   padding: 20px;
 }
+
+@media only screen and (max-width:1050px) {
+
+  }
