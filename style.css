@@ -91,6 +91,21 @@ ul {
   padding: 20px;
 }
 
+#svg {
+  animation: circle 5s ease infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes circle {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 @media only screen and (max-width:1050px) {
 
   }
