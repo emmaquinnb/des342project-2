@@ -2,8 +2,8 @@ body {
   font-family: 'Manjari', sans-serif;
   color: white;
   margin: 150px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 280px;
+  margin-right: 280px;
   line-height: 1.6;
   font-size: 18px;
 }
@@ -31,7 +31,7 @@ ul {
 }
 
 .line {
-  margin-left: 100px;
+  margin-left: 140px;
   margin-bottom: 40px;
 }
 
@@ -91,21 +91,54 @@ ul {
   padding: 20px;
 }
 
-#svg {
-  animation: circle 5s ease infinite linear;
+svg {
+  animation: circle 11s infinite linear;
   transform-origin: center;
-  transform-box: fill-box;
+  width: 50%;
+  align-content: center;
 }
 
 @keyframes circle {
-  from {
-    transform: rotateZ(0deg);
+  0% {
+    transform: rotateZ(0deg) scale(.5);
   }
-  to {
-    transform: rotateZ(360deg);
+  50% {
+    transform: rotateZ(180deg) scale(1.0);
+  }
+  100% {
+    transform: rotateZ(360deg) scale(.5);
   }
 }
 
 @media only screen and (max-width:1050px) {
-
+  body {
+    margin: 40px;
   }
+  .grid1 section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+  }
+
+  .grid2 section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+  }
+
+  .grid3 section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+  }
+
+  .grid4 section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+  }
+}
