@@ -96,7 +96,7 @@ ul {
 svg {
   animation: circle 11s infinite linear;
   transform-origin: center;
-  width: 50%;
+  width: 70%;
   align-content: center;
 }
 
@@ -119,6 +119,10 @@ svg {
 @media only screen and (max-width:1050px) {
   body {
     margin: 50px;
+  }
+
+  svg {
+    width: 100%;
   }
 
   .grid1 div {
