@@ -7,11 +7,13 @@ body {
   line-height: 1.6;
   font-size: 18px;
 }
+
 h1 {
   font-family: 'Manjari', sans-serif;
   text-align: center;
   margin-bottom: 0;
 }
+
 p {
   font-family: 'Manjari', sans-serif;
   line-height: 1.8;
@@ -116,7 +118,7 @@ svg {
 
 @media only screen and (max-width:1050px) {
   body {
-    margin: 10px;
+    margin: 50px;
   }
 
   .grid1 div {
